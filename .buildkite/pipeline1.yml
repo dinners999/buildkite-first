@@ -1,14 +1,14 @@
 steps:
-  - label: ":hammer: Build"
+  - label: ":hammer: Build1"
     command: "scripts/build.sh"
     key: build
 
-  - label: ":test_tube: Test"
+  - label: ":test_tube: Test1"
     command: "scripts/test.sh"
     key: test
     depends_on: build
 
-  - label: ":rocket: Deploy"
+  - label: ":rocket: Deploy1"
     command: "scripts/deploy.sh"
     key: deploy
     depends_on: test
