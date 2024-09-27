@@ -1,5 +1,6 @@
 steps:
   - label: ":hammer: Build1"
+    branches: "main"
     command: "scripts/build.sh"
     key: build
 
