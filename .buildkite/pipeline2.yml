@@ -1,7 +1,7 @@
 steps:
   - label: ":hammer: Build2"
     command: "scripts/build.sh"
-    key: build
+    key: build2
 
   - label: ":test_tube: Test2"
     command: "scripts/test.sh"
