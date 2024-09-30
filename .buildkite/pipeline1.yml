@@ -6,10 +6,10 @@ steps:
 
   - label: ":test_tube: Test1"
     command: "scripts/test.sh"
-    key: test
-    depends_on: build
+    key: test1
+    depends_on: build1
 
   - label: ":rocket: Deploy1"
     command: "scripts/deploy.sh"
-    key: deploy
-    depends_on: test
+    key: deploy1
+    depends_on: test1
